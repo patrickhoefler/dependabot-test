@@ -6,6 +6,6 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "docker"
-    directory: "/ubuntu-18.04/" # Location of package manifests
+    directory: "/ubuntu-bionic/" # Location of package manifests
     schedule:
       interval: "daily"
