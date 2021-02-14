@@ -5,3 +5,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+  - package-ecosystem: "docker"
+    directory: "/ubuntu-18.04/" # Location of package manifests
+    schedule:
+      interval: "daily"
