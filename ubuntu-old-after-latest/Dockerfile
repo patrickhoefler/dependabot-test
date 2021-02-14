@@ -1,3 +1,3 @@
 FROM ubuntu:latest AS test-latest
 
-FROM ubuntu:latest@sha256:868fd30a0e47b8d8ac485df174795b5e2fe8a6c8f056cc707b232d65b8a1ab68 AS test-sha
+FROM ubuntu:latest@sha256:028d7303257c7f36c721b40099bf5004a41f666a54c0896d5f229f1c0fd99993 AS test-sha
