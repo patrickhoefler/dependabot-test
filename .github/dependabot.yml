@@ -13,3 +13,7 @@ updates:
     directory: "/ubuntu-old-after-latest/" # Location of package manifests
     schedule:
       interval: "daily"
+  - package-ecosystem: "docker"
+    directory: "/ubuntu-latest/" # Location of package manifests
+    schedule:
+      interval: "daily"
