@@ -1,3 +1,3 @@
-FROM ubuntu:bionic@sha256:b88f8848e9a1a4e4558ba7cfc4acc5879e1d0e7ac06401409062ad2627e6fb58 AS stage-1
+FROM ubuntu:bionic@sha256:67b730ece0d34429b455c08124ffd444f021b81e06fa2d9cd0adaf0d0b875182 AS stage-1
 
-FROM ubuntu:bionic@sha256:b88f8848e9a1a4e4558ba7cfc4acc5879e1d0e7ac06401409062ad2627e6fb58 AS stage-2
+FROM ubuntu:bionic@sha256:67b730ece0d34429b455c08124ffd444f021b81e06fa2d9cd0adaf0d0b875182 AS stage-2
