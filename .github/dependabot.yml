@@ -1,19 +1,22 @@
-
 version: 2
 updates:
   - package-ecosystem: "docker"
-    directory: "/" # Location of package manifests
+    directory: "/"
     schedule:
       interval: "daily"
   - package-ecosystem: "docker"
-    directory: "/ubuntu-bionic/" # Location of package manifests
+    directory: "/ubuntu-bionic/"
     schedule:
       interval: "daily"
   - package-ecosystem: "docker"
-    directory: "/ubuntu-old-after-latest/" # Location of package manifests
+    directory: "/ubuntu-old-after-latest/"
     schedule:
       interval: "daily"
   - package-ecosystem: "docker"
-    directory: "/ubuntu-latest/" # Location of package manifests
+    directory: "/ubuntu-latest/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "docker"
+    directory: "/ubuntu-focal-with-date/"
     schedule:
       interval: "daily"
