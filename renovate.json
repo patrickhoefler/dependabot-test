@@ -2,5 +2,15 @@
   "extends": [
     "config:base"
   ],
-  "prHourlyLimit": 0
+  "packageRules": [
+    {
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchPackageNames": [
+        "ubuntu"
+      ],
+      "versioning": "ubuntu"
+    }
+  ]
 }
