@@ -13,7 +13,7 @@
       "matchPaths": [
         "ubuntu-focal-with-date/Dockerfile"
       ],
-      "versioning": "regex:^(?<compatibility>[a-z]+?)-(?<minor>\\d+)?$"
+      "versioning": "regex:^(?<compatibility>[a-z]+)-?(?<minor>\\d+)?$"
     }
   ]
 }
