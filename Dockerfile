@@ -6,6 +6,6 @@ FROM ubuntu:focal@sha256:028d7303257c7f36c721b40099bf5004a41f666a54c0896d5f229f1
 
 FROM ubuntu:bionic AS test-bionic
 
-FROM ubuntu:bionic@sha256:b88f8848e9a1a4e4558ba7cfc4acc5879e1d0e7ac06401409062ad2627e6fb58 AS test-bionic-sha
+FROM ubuntu:bionic@sha256:6fec50623d6d37b7f3c14c5b6fc36c73fd04aa8173d59d54dba00da0e7ac50ee AS test-bionic-sha
 
-FROM ubuntu:bionic@sha256:028d7303257c7f36c721b40099bf5004a41f666a54c0896d5f229f1c0fd99993 AS test-bionic-with-focal-sha
+FROM ubuntu:bionic@sha256:d5c260797a173fe5852953656a15a9e58ba14c5306c175305b3a05e0303416db AS test-bionic-with-focal-sha
