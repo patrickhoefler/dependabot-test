@@ -2,7 +2,7 @@ FROM ubuntu@sha256:028d7303257c7f36c721b40099bf5004a41f666a54c0896d5f229f1c0fd99
 
 FROM ubuntu:latest@sha256:028d7303257c7f36c721b40099bf5004a41f666a54c0896d5f229f1c0fd99993 AS test-latest-sha
 
-FROM ubuntu:focal@sha256:028d7303257c7f36c721b40099bf5004a41f666a54c0896d5f229f1c0fd99993 AS test-focal-sha
+FROM ubuntu:focal@sha256:b25ef49a40b7797937d0d23eca3b0a41701af6757afca23d504d50826f0b37ce AS test-focal-sha
 
 FROM ubuntu:bionic AS test-bionic
 
