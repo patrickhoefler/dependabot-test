@@ -1,6 +1,6 @@
 FROM ubuntu@sha256:028d7303257c7f36c721b40099bf5004a41f666a54c0896d5f229f1c0fd99993 AS test-sha
 
-FROM ubuntu:latest@sha256:028d7303257c7f36c721b40099bf5004a41f666a54c0896d5f229f1c0fd99993 AS test-latest-sha
+FROM ubuntu:latest@sha256:817cfe4672284dcbfee885b1a66094fd907630d610cab329114d036716be49ba AS test-latest-sha
 
 FROM ubuntu:focal@sha256:028d7303257c7f36c721b40099bf5004a41f666a54c0896d5f229f1c0fd99993 AS test-focal-sha
 
